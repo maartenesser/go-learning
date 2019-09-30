@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6313e3a9-1bb3-4c06-ac7d-19c4c0d3917c" name="Default Changelist" comment="" />
+    <list default="true" id="6313e3a9-1bb3-4c06-ac7d-19c4c0d3917c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-helloworld/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/01-helloworld/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jedi-level-1/exercise-1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/jedi-level-1/exercise-1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jedi-level-1/exercise-2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/jedi-level-1/exercise-2/main.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +21,9 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.12.9/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1RTGzZcuCyMUE30WpVH1NcJSrQn" />
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
@@ -33,9 +41,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../go-learning/jedi-level-1" />
-      <recent name="$PROJECT_DIR$/../go-learning/jedi-level-1/exercise-1" />
-      <recent name="$PROJECT_DIR$/../go-learning" />
+      <recent name="$PROJECT_DIR$/jedi-level-1" />
+      <recent name="$PROJECT_DIR$/jedi-level-1/exercise-1" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -62,5 +70,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
