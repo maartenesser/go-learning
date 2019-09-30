@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 type Age int
+
 var x Age
 
 func main() {
