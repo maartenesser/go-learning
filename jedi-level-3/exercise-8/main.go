@@ -11,7 +11,7 @@ func main() {
 	case true:
 		{
 			fmt.Println("this is true")
-	}
+		}
 
 	}
 }
