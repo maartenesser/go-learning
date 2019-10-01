@@ -9,9 +9,9 @@ func main() {
 		`no_dr`:           []string{`Being evil`, `Ice cream`, `Sunsets`},
 	}
 
-	for k, v :=range m {
+	for k, v := range m {
 		fmt.Printf("Actor: %v\n", k)
-		for _, v2 :=range v {
+		for _, v2 := range v {
 			fmt.Printf("\t interest in, %v\n", v2)
 		}
 	}

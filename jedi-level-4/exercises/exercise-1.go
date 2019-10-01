@@ -20,5 +20,4 @@ func main() {
 
 	fmt.Printf("the type of this array is %T\n", a)
 
-
 }

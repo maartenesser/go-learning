@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	x := []int{42, 43, 44, 45, 46, 47, 48, 49, 50, 51}
 
-	y := []int{3,4,5}
+	y := []int{3, 4, 5}
 
 	//slicing the first half of the x slice
 	z := x[0:3]

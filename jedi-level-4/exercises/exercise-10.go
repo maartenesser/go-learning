@@ -12,9 +12,9 @@ func main() {
 	m["octo_pussy"] = []string{`Bieng Evil`, `Revenge on Bond`, `suducton`}
 	delete(m, `bond_james`)
 
-	for k, v :=range m {
+	for k, v := range m {
 		fmt.Printf("Actor: %v\n", k)
-		for _, v2 :=range v {
+		for _, v2 := range v {
 			fmt.Printf("\t interest in, %v\n", v2)
 		}
 	}
