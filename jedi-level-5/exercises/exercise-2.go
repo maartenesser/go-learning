@@ -4,17 +4,17 @@ import "fmt"
 
 type person struct {
 	first_name, last_name string
-	favorite_ice_cream []string
+	favorite_ice_cream    []string
 }
 
 func main() {
 	maarten := person{
-		first_name:         "Maaarten",
-		last_name:          "Esser",
+		first_name: "Maaarten",
+		last_name:  "Esser",
 		favorite_ice_cream: []string{
 			"Strawberry",
 			"citron",
-			},
+		},
 	}
 
 	// This is not the right way. Far to static and not at all dynamic

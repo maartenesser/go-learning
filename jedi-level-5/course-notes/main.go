@@ -5,7 +5,7 @@ import "fmt"
 //struct
 type person struct {
 	first, last string
-	age int
+	age         int
 }
 
 // embedded struct
@@ -19,24 +19,24 @@ func main() {
 	sa1 := secretAgent{
 		person: person{
 			first: "James",
-			last: "Bond",
+			last:  "Bond",
 		},
-		ltk:    true,
+		ltk: true,
 	}
 
-	p1 := person {
+	p1 := person{
 		first: "Maarten",
-		last: "Esser",
+		last:  "Esser",
 	}
 
 	//anonamous struct
 	p2 := struct {
 		first, last string
-		age int
+		age         int
 	}{
 		first: "Bart",
-		last: "Fokker",
-		age: 25,
+		last:  "Fokker",
+		age:   25,
 	}
 
 	fmt.Println(sa1)

@@ -14,7 +14,7 @@ func main() {
 	}
 
 	fmt.Println(maarten.first_name)
-	fmt.Printf("First name: %s\n", maarten.first_name )
-	fmt.Printf("Last name: %s\n", maarten.last_name )
-	fmt.Printf("Fav ice cream: %s\n", maarten.favorite_ice_cream )
+	fmt.Printf("First name: %s\n", maarten.first_name)
+	fmt.Printf("Last name: %s\n", maarten.last_name)
+	fmt.Printf("Fav ice cream: %s\n", maarten.favorite_ice_cream)
 }
