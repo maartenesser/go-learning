@@ -25,7 +25,7 @@ func (p person) speak() {
 // a value can be of more than one type
 //keyword, identifier, type
 type human interface {
-	// Hey baby if you git this message you are my type
+	// Hey baby if you get this message you are my type
 	speak()
 }
 
