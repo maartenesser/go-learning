@@ -25,6 +25,12 @@ type shape interface {
 	area() float64
 }
 
+type shapeFunc func() float64
+
+func (s shapeFunc) area() float64 {
+	return s()
+}
+
 func info(s shape) {
 	fmt.Printf("the area is: %v\n", s.area())
 }
@@ -41,4 +47,8 @@ func main() {
 	}
 	fmt.Println(s)
 	info(s)
+
+	info(shapeFunc(func() float64{
+		return 10
+	}))
 }
